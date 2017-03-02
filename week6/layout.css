@@ -1,0 +1,47 @@
+/* external css stylesheet */
+/* applies a choesive design across all pages */
+
+body {
+   background-color: aqua;
+   <!-- font-family - affects everything inside the body. -->
+}
+
+h1{
+  font-family:'Sansita', sans-serif;
+}
+
+#sidebar {
+  background-color: darksalmon;
+  width: 30%;
+  height: 700px;
+  float: left;
+}
+
+#sidebar nav ul{
+  margin-left: -40px; }
+
+#sidebar nav li a{
+    margin-left: 20px ;
+    text-decoration: none;
+    color: darkslategray;}
+
+#mainContainer {
+  background-color: aquamarine;
+  width: 70% ;/*side bar and main proportional to each other */
+  height: 700px;
+  float: left; /* float elemnets next to each other */
+  /*margin: 0 auto; */
+}
+
+#title {
+  margin-left: 10px;
+  font-family:'Sansita', sans-serif;   /* if onnly want the title to be the font */
+}
+
+mainImage{
+  width:
+}
+
+.col{
+  width:33.3% /*can have percentages within percentages */
+}

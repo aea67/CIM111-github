@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<head>
+  <title>Box Model</title>
+
+  <style>
+      /* making a commment in CSS. not in html. CSS only */
+      /* when using padding, subtract from the size contnainer you want. */
+
+  #box1
+  { width:300px;
+    height: 300px;
+    background-color: aqua;
+  }
+ #box2
+    { width: 260px;
+      height: 260px;
+      background-color: pink;
+      padding: 20px;}
+
+ #box3
+  { width:260px;
+    height: 260px;
+    background-color:aquamarine;
+    padding: 20px;
+    border-style: solid;
+    border-width: 5px;
+  }
+#box4
+    { width:260px;
+      height:260px;
+      background-color:gold;
+      padding:20px;
+      border-style:dashed;
+      border-width:3px;
+      text-align: center; /* centers text in box */
+      margin: -10px; /* makes box start @ -10 x&y coord. */
+      margin: 0 auto; /* centers box on page */
+    }
+
+#box5
+  { width:320px;
+    height:30px;
+    background-color: lavender;
+    padding: 25px;
+    color: darkslateblue;
+    margin: 20px; /* spaces out box from surrounding elements so they are not right next to each other*/
+  }
+#box6
+  { width:100px;
+    height:100px;
+    background-color: aliceblue;
+    border-style: solid;
+    border-width: 4px;
+      /*          all sides, top, bottom, right and left. */
+    border-color:midnightblue;
+    text-align:center;
+    font-family: sans-serif;
+    color:azure;
+    font-size:30px;
+  }
+  #box7
+    { width:100px;
+      height:100px;
+      background-color: mistyrose;
+      border-style: solid;
+      border-width: 8px 6px 4px 2px;
+            /*      top  R  Bot  L */
+            /* goes clockwise: T, R, B, L */
+      border-color:mediumvioletred;
+      font-family: sans-serif;
+      color:lavenderblush;
+      font-size:30px;
+      text-align:center;
+}
+  #box8
+    { width: 100px;
+      height:100px;
+      background-color:lightgoldenrodyellow;
+      border-style:solid;
+      border-width:10px 5px;
+              /*    TB   RL */
+      border-color:darkgoldenrod;
+      font-family:sans-serif;
+      font-size:30px;
+      text-align:center;
+      color:lightyellow;
+}
+
+  #box9
+  { width:100px;
+    height:100px;
+    background-color:blanchedalmond;
+    border-style: ridge; /* more 3-d effect with shadow */
+    border-width: 9px;
+    border-color: saddlebrown;
+    font-family:sans-serif;
+    text-align:center;
+    color:papayawhip;
+    font-size:30px;
+  }
+
+  #box10
+  { width:100px;
+    height:100px;
+    background-color:lightgreen;
+    border-style: outset; /* basic 3-d effect */
+    border-width: 9px;
+    border-color:darkolivegreen;
+    font-family:sans-serif;
+    text-align:center;
+    color:palegreen;
+    font-size:30px;
+  }
+  #box11
+  { width:100px;
+    height:100px;
+    background-color:lightsteelblue ;
+    border-style: inset;
+    border-width:9px;
+    border-color:navy;
+    font-family:sans-serif;
+    text-align:center;
+    color:lightblue;
+    font-size:30px;
+  }
+  #box12
+  { width:100px;
+    height:100px;
+    background-color:pink;
+    border-style:dotted;
+    border-width:9px;
+    border-color:maroon;
+    font-family:sans-serif;
+    text-align:center;
+    color:mistyrose;
+    font-size:30px;
+  }
+#box13
+{ width:100px;
+  height:100px;
+  background-color:powderblue;
+  border-top-style:solid;
+  border-right-style:ridge;
+  border-bottom-style:outset;
+  border-left-style:dotted;
+  border-width:9px;
+  border-color:skyblue;
+  font-family: sans-serif;
+  text-align:center;
+  color:paleturquoise;
+  font-size:30px;
+}
+#box14
+{ width:450px;
+  height:200px;
+  background-color:khaki;
+  padding:15px;
+  margin:10px;
+  color: saddlebrown;
+
+}
+
+
+    /*  border-top-style: solid;
+      border-right-style: outset;
+      border-bottom-style: dotted ;
+      border-left-style: inset; */
+    </style>
+</head>
+
+<body>
+
+  <div id="box1">This is box1 <br> Box1 is 300px width and height. <br> box1 has no padding. </div>
+  <div id="box2">This is box2. <Br> Box2 is 260px width and height. <br> Box2 has 20 px padding on all 4 sides. <br> To get a 300px box: <br> 300px had to be subtracted by 40px. <br> width: -20 left plus -20 right, -40 total <br> height: (-20 top)+(-20 bottom) = -40. </div>
+  <div id="box3">This is box3. <br> box3 has 260px width and height. <br> box3 has 20px padding <br>box3 also has a 5px border<br> as you see, the border portrudes from the box, and pads it externally. <br> that makes it stick out more. <br> <br> CONCLUSION: <br> Internal padding takes <em>away</em> from the container size. <br> External padding (border) <em>adds</em> to the existing container size. </div>
+
+  <div id="box4">This is box4 <br> Box4 is just centered. <br> The text is also centered. <br> box4 has a dashed border of 3px. </div>
+
+  <div id="box5">The following boxes will play with border placement and style. </div>
+
+  <div id="box6">6</div>
+  <div id="box7">7</div>
+  <div id="box8">8</div>
+  <div id="box9">9</div>
+  <div id="box10">10</div>
+  <div id="box11">11</div>
+  <div id="box12">12</div>
+  <div id="box13">13</div>
+  <div id="box14"><br>box styles:<br>
+    box7: clockwise size decrease. <br>
+    box8:top and bottom; right and left<br>
+    box9:ridge<br>
+    box10: outset<br>
+    box11: inset<br>
+    box12: dotted<br>
+    box13: <br> clockwise: solid, ridge, outset, dotted</div>
+
+</body>

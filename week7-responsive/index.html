@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Responsive Design</title>
+    <style>
+      body {
+        background-color: gold;
+        font-family: sans-serif;
+        color: white;
+        font-size:24px;
+
+  }
+        @media only screen and (min-width: 480px)
+
+          h1 {font-size:20px;}
+          body {background-color: orange; }
+          /* from 400 to 480 this css operates.
+          then from 480 up the default bg color declared in the body */
+        }
+      @media only screen and (max-width: 400px)
+      {
+        body {background-color: goldenrod;} /* from 0 to 400 this css operates */
+        h1  {font-size:18px;}
+      }
+
+      /* as you shrink the size of the browser, the page should change color, going from gold to orange to gold orange. */
+    </style>
+
+  </head>
+
+  <body>
+    <h1>Hello! I'm Responsive!</h1>
+  </body>
+</html>

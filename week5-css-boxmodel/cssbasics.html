@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Intro to CSS</title>
+    <style>
+      body {
+        background-color:skyblue;
+           }
+      h1 {
+        color:navy;
+        font-family:sans-serif;
+          }
+      }
+      p {
+        color:#483D8B;
+        font-size:20px;
+        }
+      a {
+        color:dodgerblue;
+        font-size:30px;
+        font-weight:800;
+        text-decoration:none;
+      }
+      a:hover {
+        color:aqua;
+        font-weight:100;
+      }
+      #favefilm { /* an id. it has '#' */
+        font-size:20px;
+      }
+      .italics {  /* a class. it has '.' */
+        font-style:italic;
+      }
+      ul li {
+        color:hotpink;
+      }
+      nav ul li {
+        list-style:none;
+      }
+      ol li { color:mediumvioletred;}
+    </style>
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>CSS</li>
+        <li>Html</li>
+     </ul>
+    </nav>
+    <h1>Cascading Style Sheets</h1>
+    <p>Just trying out this thing called Cascading Style Sheets. CSS is short for Cascading Style Sheets. Style sheets can be applied inline, as an internal sheet along with the html file, or through an external file. This is a practice page with the following css styling elements:<p>
+      <ol>
+        <li>background-color</li>
+        <li>text color</li>
+        <li>hover color change</li>
+        <li>inline CSS style</li>
+      </ol>
+
+      <a href="https://google.com">google.com</a>
+
+    <h2>Inline CSS Style</h2>
+      <ul><h3>Top Films</h3>
+        <li class="italics">I am Legend</li>
+        <li>Eternal Sunshine of the Spotless Mind</li>
+        <li id="favefilm">Clueless</li>
+      </ul>
+
+  </body>
+</html>
